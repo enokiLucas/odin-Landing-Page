@@ -1,3 +1,10 @@
-* {
-	border: red solid 2px;
+.image-large {
+	height: 300px;
+	weight: 600px;
+}
+
+
+.image-subtext {
+	height: 100px;
+	weight: 100px;
 }
