@@ -134,3 +134,12 @@ body {
 
 /*-------------Contact-us-----------------*/
 
+.contact-us {
+	display: flex;
+	background-color: #3882f6;
+	color: white;
+	font-weight: bold;
+	font-size: 16px;
+	justify-content: space-around;
+	flex: 1;
+}
