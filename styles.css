@@ -1,33 +1,31 @@
 .image-large {
 	height: 200px;
-	weight: 400px;
+	width: 400px;
 	padding: 50px 30px;
 }
 
-
 .image-subtext {
 	height: 100px;
-	weight: 100px;
+	width: 100px;
 }
 
-.header,
-.cover {
+.hero {
+	display: flex;
 	background-color: #1f2937;
 	color: white;
-	display: flex;
+	font-family: "Roboto";
+	flex-direction: column;
+	padding: 10px 100px 30px 100px;
 }
 
 .header {
-	justify-content: space-around;
+	display: flex;
+	justify-content: space-between;
 	align-items: center;
 	font-family: "Roboto";
 	font-size: 24px;
 	font-weight: bold;
-}
-
-.cover {
-	justify-content: space-around;
-	
+	height: 40px;
 }
 
 .h-link {
@@ -38,9 +36,29 @@
 	font-weight: 200;
 }
 
-.cover-left {
+.cover {
 	display: flex;
-	flex-direction: column;
 	justify-content: center;
-	width: 300px;
+	align-items: center;
+}
+
+.title {
+	font-family: "Roboto";
+	font-weight: bolder;
+	font-size: 48px;
+	line-height: 48px;
+}
+
+.subtext {
+	font-size: 18px;
+	font-weight: 200;
+}
+
+.button-a {
+	background-color: #3882f6;
+	border: none;
+	color: white;
+	height: 30px;
+	width: 100px;
+	border-radius: 8px;
 }
