@@ -134,6 +134,12 @@ body {
 
 /*-------------Contact-us-----------------*/
 
+.banner {
+	display: flex;
+	background-color: white;
+	padding: 20px 50px;
+}
+
 .contact-us {
 	display: flex;
 	background-color: #3882f6;
@@ -141,5 +147,32 @@ body {
 	font-weight: bold;
 	font-size: 16px;
 	justify-content: space-around;
+	align-items: center;
 	flex: 1;
+	padding: 20px 50px;
+}
+
+.sign {
+	font-size: 14px;
+	font-weight: normal;
+}
+
+.button-b {
+	background-color: #3882f6;
+	border: solid 2px white;
+	color: white;
+	height: 30px;
+	width: 100px;
+	border-radius: 8px;
+}
+
+/*--------------footer---------------*/
+
+.footer {
+	background-color: #1f2937;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 50px;
 }
